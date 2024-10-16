@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce: The Customer Company | Salesforce India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./asserts/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><svg id="menu-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+                        </svg></li>
+                    <li><img class="display-none" id="salesforce-img" src="./asserts/salesforce-img.svg" alt="">
+                        <img id="salesforce-img2" src="./asserts/salesforce-img2.svg" alt="">
+                    </li>
+                    <li class="display-none">Products</li>
+                    <li class="display-none">Industries</li>
+                    <li class="display-none">Costomers</li>
+                    <li class="display-none">Learning</li>
+                    <li class="display-none">Support</li>
+                    <li class="display-none">Company</li>
+                    <li class="display-none">Salesforce<svg style="width: 10; color: rgb(0, 0, 0);"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                        </svg></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="display-none">
+                        <p id="contact-us">Contact Us</p>
+                        <p style="cursor: text;">1800-420-7332</p>
+                    </li>
+                    <li class="navbar-hover-effect"><svg id="search-svg" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                            </path>
+                        </svg></li>
+                    <li class="display-none" class="navbar-hover-effect"><svg style="color: #032d60;"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                            color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M8 12C8 18 12 22 12 22C12 22 16 18 16 12C16 6 12 2 12 2C12 2 8 6 8 12Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M21 15H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M21 9H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></li>
+                    <li id="user-element"><svg id="user-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            width="20" height="20" color="#000000" fill="none">
+                            <path
+                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                                stroke="currentColor" stroke-width="1.5" />
+                            <path
+                                d="M14.75 9.5C14.75 11.0188 13.5188 12.25 12 12.25C10.4812 12.25 9.25 11.0188 9.25 9.5C9.25 7.98122 10.4812 6.75 12 6.75C13.5188 6.75 14.75 7.98122 14.75 9.5Z"
+                                stroke="currentColor" stroke-width="1.5" />
+                            <path
+                                d="M5.49994 19.0001L6.06034 18.0194C6.95055 16.4616 8.60727 15.5001 10.4016 15.5001H13.5983C15.3926 15.5001 17.0493 16.4616 17.9395 18.0194L18.4999 19.0001"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg><span class="display-none">&nbsp;Login</span></li>
+                    <li><button>Try for free</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sub-navbar">
+        <img src="./asserts/agentforce-img.webp" alt="">
+        <p>Humans with Agents, driving success together.</p>
+        <p><a href="https://www.salesforce.com/in/agentforce/">Discover Agentforce</a></p>
+    </div>
+
+
+    <div class="lets-chat">
+        <div></div>
+        Let's chat
+    </div>
+
+    <div class="chat-help">
+        <div><svg id="phone-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z">
+                </path>
+            </svg>
+        </div>
+        <div><svg id="message-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM7 10V12H9V10H7ZM11 10V12H13V10H11ZM15 10V12H17V10H15Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+
+    <main>
+        <div class="main">
+            <div class="box">
+                <h1>Try Salesforce Starter Suite for free.</h1>
+                <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's
+                    nothing to install. No credit card required.</p>
+                <div class="button">
+                    <button>Start free trail</button>
+                    <button>Watch demo</button>
+                </div>
+            </div>
+            <div class="box">
+                <iframe
+                    src="https://play.vidyard.com/EPhLojrTKLFGqAWw9ECW23?disable_popouts=1&type=inline&hidden_controls=0&hide_playlist=0&hide_html5_playlist=0&viral_sharing=0&name_overlay=0&v=4.3.14"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="heading-1">
+            <h1>
+                Learn what Salesforce products can do for you.
+            </h1>
+        </div>
+        <div class="main2">
+            <div class="box2">
+                <div>
+                    <p><span>Small Business</span></p>
+                    <span>Sales, service, and email outreach tools in a single app.</span>
+                    <p><span>Learn more</span></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div>
+                    <p><span>Sales Cloud</span></p>
+                    <span>Close more deals and speed up growth with the #1 CRM.</span>
+                    <p><span>Learn more</span></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div>
+                    <p><span>Service Cloud</span></p>
+                    <span>Make customers happy faster and build loyalty with Service Cloud.</span>
+                    <p class="last-para"><span>Learn more</span></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div>
+                    <p><span>Marketing Cloud</span></p>
+                    <span>Build customer relationships for life with data-first digital marketing.</span>
+                    <p class="last-para"><span>Learn more</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-product">
+            <p><button>View all our products</button></p>
+        </div>
+
+        <div class="heading-2">
+            <h1>We bring companies and customers together</h1>
+            <p>Salesforce is the world’s most trusted customer relationship management (CRM) platform. We help your
+                marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your
+                customers happy everywhere.</p>
+            <div class="button2">
+                <button>Start free trail</button>
+                <button>Watch demos</button>
+            </div>
+        </div>
+
+        <div class="heading-2 heading-3">
+            <h1>Learn valuable skills for free, with Trailhead.</h1>
+            <p>Follow guided learning paths and get hands-on to learn Salesforce, digital, and soft skills from
+                anywhere.</p>
+        </div>
+
+        <div class="main3">
+            <div class="box3">
+                <div>
+                    <img src="./asserts/box3-bg-img.webp" alt="">
+                </div>
+                <div>
+                    <button>Module</button>
+                    <h3>Salesforce Values: Quick Look</h3>
+                    <p>Learn how Salesforce helps your business build stronger relationships with your customers.</p>
+                    <p><span id="sl">Start learning</span></p>
+                </div>
+
+            </div>
+            <div class="box3">
+                <div>
+                    <img src="./asserts/box3-bg-img2.webp" alt="">
+                </div>
+                <div>
+                    <button>Module</button>
+                    <h3>Salesforce CRM</h3>
+                    <p>Learn how to use customer relationship management (CRM) software to grow your business.</p>
+                    <p class="start-learning1"><span>Start learning</span></p>
+                </div>
+            </div>
+            <div class="box3">
+                <div>
+                    <img src="./asserts/box3-bg-img3.webp" alt="">
+                </div>
+                <div>
+                    <button>Module</button>
+                    <h3>Sales Cloud Basics</h3>
+                    <p>Grow your business, boost productivity, and make smart decisions with Sales Cloud</p>
+                    <p class="start-learning2"><span>Start learning</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading-4">
+            <button>Learn for free<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.0977 2.16345H14.5237L6.8804 9.80671C6.69002 9.99709 6.69002 10.3058 6.8804 10.4961L7.34002 10.9558C7.5304 11.1461 7.83906 11.1461 8.02945 10.9558L15.6717 3.31348V7.73848C15.6717 8.00772 15.89 8.22598 16.1592 8.22598H16.8092C17.0785 8.22598 17.2967 8.00772 17.2967 7.73848V1.47595C17.2967 0.958186 16.877 0.538452 16.3592 0.538452H10.0977C9.82847 0.538452 9.61021 0.756713 9.61021 1.02595V1.67595C9.61021 1.94519 9.82847 2.16345 10.0977 2.16345ZM2.97559 4.03905C1.62939 4.03905 0.538086 5.13036 0.538086 6.47655V14.8516C0.538086 16.1977 1.62939 17.2891 2.97559 17.2891H11.3506C12.6968 17.2891 13.7881 16.1977 13.7881 14.8516L13.7881 8.88513C13.7881 8.59574 13.4383 8.45066 13.2335 8.65509L12.4493 9.43768C12.2661 9.62059 12.1631 9.86888 12.1631 10.1278V14.8516C12.1631 15.3003 11.7993 15.6641 11.3506 15.6641H2.97559C2.52686 15.6641 2.16309 15.3003 2.16309 14.8516V6.47655C2.16309 6.02782 2.52685 5.66405 2.97559 5.66405H7.79909C8.07127 5.66405 8.33106 5.55029 8.51564 5.35026L9.2223 4.58446C9.41442 4.37626 9.26675 4.03905 8.98345 4.03905H2.97559Z">
+                    </path>
+                </svg></button>
+            <h1>Over 150,000 companies, both big and small, are growing their business with Salesforce.</h1>
+            <button>View all customers</button>
+        </div>
+
+        <div class="main4">
+            <div class="box4">
+                <img src="./asserts/anantara-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/axa-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/hoolah-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/luxasia-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/meralco-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/rcbc-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/slo-img.webp" alt="">
+            </div>
+            <div class="box4">
+                <img src="./asserts/singtel-img.webp" alt="">
+            </div>
+
+        </div>
+
+        <div class="bg-img">
+            <img src="./asserts/main4-bg-img.webp" alt="">
+        </div>
+
+        <div class="main5">
+            <div class="box5">
+                <h1>Try Salesforce for free. No credit card required, no software to install.</h1>
+                <div>
+                    <button>Start free trail</button>
+                    <button>See pricing<svg width="18" height="18" viewBox="0 0 18 18"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.0977 2.16345H14.5237L6.8804 9.80671C6.69002 9.99709 6.69002 10.3058 6.8804 10.4961L7.34002 10.9558C7.5304 11.1461 7.83906 11.1461 8.02945 10.9558L15.6717 3.31348V7.73848C15.6717 8.00772 15.89 8.22598 16.1592 8.22598H16.8092C17.0785 8.22598 17.2967 8.00772 17.2967 7.73848V1.47595C17.2967 0.958186 16.877 0.538452 16.3592 0.538452H10.0977C9.82847 0.538452 9.61021 0.756713 9.61021 1.02595V1.67595C9.61021 1.94519 9.82847 2.16345 10.0977 2.16345ZM2.97559 4.03905C1.62939 4.03905 0.538086 5.13036 0.538086 6.47655V14.8516C0.538086 16.1977 1.62939 17.2891 2.97559 17.2891H11.3506C12.6968 17.2891 13.7881 16.1977 13.7881 14.8516L13.7881 8.88513C13.7881 8.59574 13.4383 8.45066 13.2335 8.65509L12.4493 9.43768C12.2661 9.62059 12.1631 9.86888 12.1631 10.1278V14.8516C12.1631 15.3003 11.7993 15.6641 11.3506 15.6641H2.97559C2.52686 15.6641 2.16309 15.3003 2.16309 14.8516V6.47655C2.16309 6.02782 2.52685 5.66405 2.97559 5.66405H7.79909C8.07127 5.66405 8.33106 5.55029 8.51564 5.35026L9.2223 4.58446C9.41442 4.37626 9.26675 4.03905 8.98345 4.03905H2.97559Z">
+                            </path>
+                        </svg></button>
+                </div>
+            </div>
+            <div class="box5">
+                <img src="./asserts/box5-bg-img.webp" alt="">
+            </div>
+        </div>
+
+        <div class="heading-5">
+            <h1>How can we help grow your business?</h1>
+        </div>
+
+        <div class="main6">
+            <div class="box6">
+                <img src="./asserts/box6-img1.webp" alt="">
+                <p><span>Sell faster</span></p>
+            </div>
+            <div class="box6">
+                <img src="./asserts/box6-img2.webp" alt="">
+                <p><span>Close more deals</span></p>
+            </div>
+            <div class="box6">
+                <img src="./asserts/box6-img3.webp" alt="">
+                <p><span>Scale service</span></p>
+            </div>
+            <div class="box6">
+                <img src="./asserts/box6-img4.webp" alt="">
+                <p><span>Build customer relationships</span></p>
+            </div>
+        </div>
+
+        <div class="heading-6">
+            <h1>Our technology helps people create better jobs, lives, companies, and communities.</h1>
+        </div>
+
+        <div class="main7">
+            <div class="box7">
+                <img src="./asserts/box7-img1.webp" alt="">
+                <p>Technology given for free or discounted</p>
+            </div>
+            <div class="box7">
+                <img src="./asserts/box7-img2.webp" alt="">
+                <p>Fortune 100 Best Companies to Work For 2024 (16 years in a row)</p>
+            </div>
+            <div class="box7">
+                <img src="./asserts/box7-img3.webp" alt="">
+                <p>Fortune World’s Most Admired Companies 2024</p>
+            </div>
+
+        </div>
+
+        <div class="bg-img2">
+            <img src="./asserts/main7-bg-img.webp" alt="">
+        </div>
+
+        <div class="main8">
+            <div class="box8">
+                <h1>Questions? We’ll put you on the right path.</h1>
+                <p>
+                    Ask about Salesforce products, pricing, implementation, or anything else. Our highly trained reps
+                    are standing by, ready to help.</p>
+                <div>
+                    <button>Contact us<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.0977 2.16345H14.5237L6.8804 9.80671C6.69002 9.99709 6.69002 10.3058 6.8804 10.4961L7.34002 10.9558C7.5304 11.1461 7.83906 11.1461 8.02945 10.9558L15.6717 3.31348V7.73848C15.6717 8.00772 15.89 8.22598 16.1592 8.22598H16.8092C17.0785 8.22598 17.2967 8.00772 17.2967 7.73848V1.47595C17.2967 0.958186 16.877 0.538452 16.3592 0.538452H10.0977C9.82847 0.538452 9.61021 0.756713 9.61021 1.02595V1.67595C9.61021 1.94519 9.82847 2.16345 10.0977 2.16345ZM2.97559 4.03905C1.62939 4.03905 0.538086 5.13036 0.538086 6.47655V14.8516C0.538086 16.1977 1.62939 17.2891 2.97559 17.2891H11.3506C12.6968 17.2891 13.7881 16.1977 13.7881 14.8516L13.7881 8.88513C13.7881 8.59574 13.4383 8.45066 13.2335 8.65509L12.4493 9.43768C12.2661 9.62059 12.1631 9.86888 12.1631 10.1278V14.8516C12.1631 15.3003 11.7993 15.6641 11.3506 15.6641H2.97559C2.52686 15.6641 2.16309 15.3003 2.16309 14.8516V6.47655C2.16309 6.02782 2.52685 5.66405 2.97559 5.66405H7.79909C8.07127 5.66405 8.33106 5.55029 8.51564 5.35026L9.2223 4.58446C9.41442 4.37626 9.26675 4.03905 8.98345 4.03905H2.97559Z">
+                            </path>
+                        </svg></button>
+                    <p>Editions & pricing</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="foot">
+                <img style="cursor: pointer;" width="90" src="./asserts/salesforce-img.svg" alt="">
+                <div class="social-media-links">
+                    <svg class="facebook social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z">
+                        </path>
+                    </svg>
+                    <svg class="twitter social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z">
+                        </path>
+                    </svg>
+                    <svg class="linked-in social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z">
+                        </path>
+                    </svg>
+                    <svg class="instagram social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+                        </path>
+                    </svg>
+                    <svg class="youtube social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M12.2439 4C12.778 4.00294 14.1143 4.01586 15.5341 4.07273L16.0375 4.09468C17.467 4.16236 18.8953 4.27798 19.6037 4.4755C20.5486 4.74095 21.2913 5.5155 21.5423 6.49732C21.942 8.05641 21.992 11.0994 21.9982 11.8358L21.9991 11.9884L21.9991 11.9991C21.9991 11.9991 21.9991 12.0028 21.9991 12.0099L21.9982 12.1625C21.992 12.8989 21.942 15.9419 21.5423 17.501C21.2878 18.4864 20.5451 19.261 19.6037 19.5228C18.8953 19.7203 17.467 19.8359 16.0375 19.9036L15.5341 19.9255C14.1143 19.9824 12.778 19.9953 12.2439 19.9983L12.0095 19.9991L11.9991 19.9991C11.9991 19.9991 11.9956 19.9991 11.9887 19.9991L11.7545 19.9983C10.6241 19.9921 5.89772 19.941 4.39451 19.5228C3.4496 19.2573 2.70692 18.4828 2.45587 17.501C2.0562 15.9419 2.00624 12.8989 2 12.1625V11.8358C2.00624 11.0994 2.0562 8.05641 2.45587 6.49732C2.7104 5.51186 3.45308 4.73732 4.39451 4.4755C5.89772 4.05723 10.6241 4.00622 11.7545 4H12.2439ZM9.99911 8.49914V15.4991L15.9991 11.9991L9.99911 8.49914Z">
+                        </path>
+                    </svg>
+                </div>
+                <p>Call us at 1800-420-7332</p>
+            </div>
+            <div class="foot">
+                <nav>
+                    <ul>
+                        <li>New to Salesforce?</li>
+                        <li>Why Salesforce</li>
+                        <li>What is CRM?</li>
+                        <li>Explore All Products</li>
+                        <li>SaaS</li>
+                        <li>Customer Success</li>
+                        <li>Product Pricing</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>About Salesforce</li>
+                        <li>Our Story</li>
+                        <li>Careers</li>
+                        <li>Press<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Blog</li>
+                        <li>Security and Performance<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="16" height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Salesforce.org<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Best CRM Software<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Sustainability<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Legal<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Give us your Feedback<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>Popular Links</li>
+                        <li>New Release Features<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Salesforce Mobile App<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Business App Store<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Dreamforce<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>CRM Software<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Salesforce Plus<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                                height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                        <li>Salesforce for startups<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="16" height="16" color="#000000" fill="none">
+                                <path
+                                    d="M8.19915 15.8008L15.8008 8.19915M8.19915 15.8008C7.75558 15.3573 8.19018 13.2652 8.19915 12.6335M8.19915 15.8008C8.64273 16.2444 10.7348 15.8098 11.3665 15.8008M15.8008 8.19915C15.3573 7.75558 13.2652 8.19018 12.6335 8.19916M15.8008 8.19915C16.2444 8.64273 15.8098 10.7348 15.8008 11.3665"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="sub-foot">
+                <p>
+                    <svg class="world-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z">
+                        </path>
+                    </svg>
+                    WorldWide
+                    <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                        </path>
+                    </svg>
+                </p>
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Terms & Service</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Responsible Disclosure</a></li>
+                    <li><a href="">Trust</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="">Your privacy choices</a></li>
+                </ul>
+            </div>
+            <div class="sub-foot">
+                <p>&copy; Copyright 2024 Salesforce, Inc. All rights reserved. Various trademarks held by their
+                    respective
+                    owners.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
